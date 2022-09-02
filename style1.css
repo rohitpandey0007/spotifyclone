@@ -1,0 +1,124 @@
+/* css reset */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Fira+Sans:wght@500;600;700;800&family=Noto+Serif&family=Source+Serif+Pro&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Fira Sans', sans-serif;
+}
+   
+
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(152, 158, 157);
+    width: 300px;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.sidebar nav {}
+
+.sidebar li {
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 20px;
+    margin-top: 15px;
+
+
+}
+.sidebar li a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 88vw;
+    background-color: bisque;
+}
+
+.infocontainer {
+    display: flex;
+    /* background-color: rgb(238, 148, 113); */
+    height: 80vh;
+    width: 75vw;
+    margin: auto;
+    margin-top: 64px;
+    justify-content: space-around;
+}
+
+.infocontainer .devinfo {
+    /* background-color: blue; */
+    /* width: 30vw; */
+    height: 80vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* align-items: center; */
+}
+label{
+    font-size: 1.4rem;
+}
+.input{
+    /* width:10px; */
+    height: 35px;
+    width: 450px;
+    padding: 5px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+#yourcheckbox{
+    margin:25px 0;
+    
+}
+input.check{
+width: 30px;
+height: 20px;
+
+}
+.x{
+    font-size: 1rem;
+    padding: 2px 2px;
+    margin-bottom: 5px;
+}
+/* .mb-4{
+    justify-content: center;
+    align-items: center;
+} */
+.subbut{
+    width: 450px;
+    height: 35px;
+    border-radius: 20px/15px;
+    background-color: bisque;
+    margin-left: 200px;
+}
+.header{
+     margin-top: 5px;
+}
+.mb-4{
+    margin-left: 200px;
+}
+
+
+
+

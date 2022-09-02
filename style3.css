@@ -1,0 +1,232 @@
+/* css reset */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Fira+Sans:wght@500;600;700;800&family=Noto+Serif&family=Source+Serif+Pro&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(152, 158, 157);
+    width: 300px;
+    /* height: 100vh; */
+}
+
+.sidebar nav {}
+
+.sidebar li {
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 20px;
+    margin-top: 15px;
+
+
+}
+.sidebar li a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 60vw;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+    /* background: url('back.png') no-repeat center center/cover; */
+    /* z-index: -1; */
+    /* opacity: 0.2; */
+    /* height: 100vh; */
+    background-color: bisque;
+    line-height: 35px;
+    margin-left: 30px;
+}
+
+/* .infocontainer {
+    display: flex;
+    background-color: rgb(238, 148, 113);
+    height: 65vh;
+    width: 75vw;
+    margin: auto;
+    margin-top: 64px;
+    justify-content: space-around;
+}
+
+.infocontainer .devinfo {
+    background-color: blue;
+    width: 30vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hello {
+    font-size: 4rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.hello:hover{
+    color: red;
+}
+.name {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.about {
+    font-size: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.moreabout{
+    padding: 10px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.infocontainer .devinfo div {
+    background-color: aliceblue;
+
+    margin-top: 10px;
+
+    padding-top: 10px;
+
+}
+
+.infocontainer .devpic {
+    background-color: green;
+    width: 45vw;
+    height: 65vh;
+}
+
+.infocontainer .devpic .image {
+
+    height: 65vh;
+    
+
+}
+
+.btn {
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(4, 19, 226);
+} */
+.info{
+    border: 2px solid green;
+    height: 30vh;
+    width: 40vw;
+    margin: 10px;
+    border-radius: 20px/15px;
+    padding: 10px;
+}
+.infocontainer{
+    /* background-color:red; */
+    /* height: 100vh; */
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+/* .picture{
+    border: 2px solid green;
+    height: 15vh;
+    width: 40vw;
+} */
+.box2{
+    border: 2px solid green;
+    height: 35vh;
+    width: 40vw;
+    margin: 10px;
+    border-radius: 20px/15px;
+    padding: 10px;
+}
+.educationdetails{
+    border: 2px solid green;
+    height: 45vh;
+    width: 40vw;
+    margin: 10px;
+    border-radius: 20px/15px;
+    padding: 10px;
+}
+.objective{
+    border: 2px solid green;
+    height: 20vh;
+    width: 40vw;
+    margin: 10px;
+    border-radius: 20px/15px;
+    padding: 10px;
+
+}
+.language{
+    border: 2px solid green;
+    height: 15vh;
+    width: 40vw;
+    margin: 10px;
+    border-radius: 20px/15px;
+    padding: 10px;
+}
+.projects{
+    border: 2px solid green;
+    height: 20vh;
+    width: 40vw;
+    margin: 10px;
+    border-radius: 20px/15px;
+    padding: 10px;
+}
+.main h3{
+    color: blue;
+    padding: 10px;
+}
+.main h1{
+    color: red;
+    font-size: 2.8rem;
+    padding: 10px;
+}
+.resumeimages{
+    border: 2px solid green;
+    /* height: 50vh; */
+    display: flex;
+    flex-direction:column ;
+
+    width: 20vw;
+}
+.imgra1 {
+
+    border: 2px solid red;
+    height: 40vh;
+   
+   
+}
+.alt{
+    width: 20vw;
+}
+.linkdnlink{
+    margin-top: 60vh;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.back{
+    height: 112vh;
+}

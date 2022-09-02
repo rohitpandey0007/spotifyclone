@@ -1,0 +1,171 @@
+/* css reset */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Fira+Sans:wght@500;600;700;800&family=Noto+Serif&family=Source+Serif+Pro&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    
+
+}
+
+.sidebar {
+    background-color: rgb(152, 158, 157);
+    width: 300px;
+    height: 100vh;
+}
+
+.sidebar nav {}
+
+.sidebar li {
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 20px;
+    margin-top: 15px;
+
+
+}
+.sidebar li a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+.main {
+    /* background-color: yellow; */
+    width: 88vw;
+    height: 45vh;
+  
+}
+
+.infocontainer {
+    display: flex;
+    /* background-color: rgb(238, 148, 113); */
+    height: 45vh;
+    width: 75vw;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+.infocontainer .devinfo {
+    /* background-color: blue; */
+    /* width: 30vw; */
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hello {
+    font-size: 4rem;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(228, 19, 19);
+}
+.hello:hover{
+    /* color: red; */
+}
+.name {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3rem;
+    color: rgb(61, 47, 255);
+}
+
+.about {
+    font-size: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.moreabout{
+    padding: 10px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.infocontainer .devinfo div {
+    /* background-color: aliceblue; */
+
+    margin-top: 10px;
+
+    padding-top: 10px;
+
+}
+
+.infocontainer .devpic {
+    /* background-color: green; */
+    /* width: 45vw; */
+    height: 45vh;
+}
+
+.infocontainer .devpic .image {
+
+    height: 45vh;
+
+}
+
+.btn {
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(4, 19, 226);
+}
+.education{
+    display: flex;
+    /* border: 2px solid green; */
+    width: 65vw;
+    height: 25vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 92px;
+    padding: 5px 85px;
+    font-size:1.6rem;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pics{
+    background-color: rgb(196, 247, 238);
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    width: 25vw;
+border: 3px solid red;
+text-align: center;
+justify-content: center;
+border-radius: 15px;
+cursor: pointer;
+
+}
+.pics:hover{
+    box-shadow: 10px slateblue;
+   
+}
+.skills{
+    margin: 4px 0;
+    font: 1rem;
+}
+.box1{
+    font-size: 1.2rem;
+    color: blue;
+}
